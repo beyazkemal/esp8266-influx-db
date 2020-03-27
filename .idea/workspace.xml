@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="esp8266InfluxDb" targetName="Debug" />
+      <config projectName="esp8266InfluxDb" targetName="Z_DUMMY_TARGET" />
+      <config projectName="esp8266InfluxDb" targetName="Production" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="esp12e" CONFIG_NAME="esp12e" GENERATION_OPTIONS="-D CMAKE_C_COMPILER=/Users/kemalbeyaz/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-gcc -D CMAKE_CXX_COMPILER=/Users/kemalbeyaz/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60b4613e-6f66-433c-a7ef-04add2492212" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:esp12e" />
+  <component name="FavoritesManager">
+    <favorites_list name="esp8266InfluxDb" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZiL38423GbEFGRnS0hGkv0dhSv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunManager" selected="PlatformIO.PlatformIO Upload">
+    <configuration name="Z_DUMMY_TARGET" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="esp8266InfluxDb" TARGET_NAME="Z_DUMMY_TARGET" CONFIG_NAME="esp12e" RUN_TARGET_PROJECT_NAME="esp8266InfluxDb" RUN_TARGET_NAME="Z_DUMMY_TARGET">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatformIO Debug" type="platformio" factoryName="PlatformIO Debug" PASS_PARENT_ENVS_2="true" PROJECT_NAME="esp8266InfluxDb" TARGET_NAME="Debug" CONFIG_NAME="esp12e" RUN_TARGET_PROJECT_NAME="esp8266InfluxDb" RUN_TARGET_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatformIO Upload" type="platformio" factoryName="PlatformIO Upload" PASS_PARENT_ENVS_2="true" PROJECT_NAME="esp8266InfluxDb" TARGET_NAME="Production" CONFIG_NAME="esp12e" RUN_TARGET_PROJECT_NAME="esp8266InfluxDb" RUN_TARGET_NAME="Production">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Z_DUMMY_TARGET" />
+      <item itemvalue="PlatformIO.PlatformIO Debug" />
+      <item itemvalue="PlatformIO.PlatformIO Upload" />
+    </list>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="335" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585327177853">
+      <screen x="0" y="23" width="1680" height="989" />
+    </state>
+    <state x="335" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.989@0.23.1680.989" timestamp="1585327177853" />
+    <state width="1358" height="268" key="GridCell.Tab.0.bottom" timestamp="1585334943496">
+      <screen x="0" y="23" width="1680" height="989" />
+    </state>
+    <state width="1358" height="268" key="GridCell.Tab.0.bottom/0.23.1680.989@0.23.1680.989" timestamp="1585334943496" />
+    <state width="1358" height="268" key="GridCell.Tab.0.center" timestamp="1585334943496">
+      <screen x="0" y="23" width="1680" height="989" />
+    </state>
+    <state width="1358" height="268" key="GridCell.Tab.0.center/0.23.1680.989@0.23.1680.989" timestamp="1585334943496" />
+    <state width="1358" height="268" key="GridCell.Tab.0.left" timestamp="1585334943495">
+      <screen x="0" y="23" width="1680" height="989" />
+    </state>
+    <state width="1358" height="268" key="GridCell.Tab.0.left/0.23.1680.989@0.23.1680.989" timestamp="1585334943495" />
+    <state width="1358" height="268" key="GridCell.Tab.0.right" timestamp="1585334943496">
+      <screen x="0" y="23" width="1680" height="989" />
+    </state>
+    <state width="1358" height="268" key="GridCell.Tab.0.right/0.23.1680.989@0.23.1680.989" timestamp="1585334943496" />
+    <state x="372" y="156" key="SettingsEditor" timestamp="1585316792822">
+      <screen x="0" y="23" width="1680" height="989" />
+    </state>
+    <state x="372" y="156" key="SettingsEditor/0.23.1680.989@0.23.1680.989" timestamp="1585316792822" />
+    <state x="499" y="343" key="com.vladsch.clionarduinoplugin.settings.ProjectSettingsDialog" timestamp="1585318040665">
+      <screen x="0" y="23" width="1680" height="989" />
+    </state>
+    <state x="499" y="343" key="com.vladsch.clionarduinoplugin.settings.ProjectSettingsDialog/0.23.1680.989@0.23.1680.989" timestamp="1585318040665" />
+    <state x="536" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1585324909920">
+      <screen x="0" y="23" width="1680" height="989" />
+    </state>
+    <state x="536" y="241" width="670" height="676" key="search.everywhere.popup/0.23.1680.989@0.23.1680.989" timestamp="1585324909920" />
+  </component>
+</project>
