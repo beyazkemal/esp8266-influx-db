@@ -3,15 +3,16 @@
 #include "OneWire.h"
 #include "DallasTemperature.h"
 
-const char *ssid = "your ssid";
-const char *password = "your password";
+const char *ssid = "<your wifi ssid>";
+const char *password = "<your wifi password>";
 
-const char *url = "your influx data cloud url";
-const char *fingerPrint = "your influx data cloud ssl certificate fingerprint";
+const char *url = "<your influx data cloud url>";
+const char *fingerPrint = "<your influx data cloud ssl certificate fingerprint>";
 const char *headerName = "Authorization";
 const char *headerValue = "Token <your token>";
-const String data = "esp8266,mytag=1 roomDegree=";
+const String data = "esp8266,mytag=livingRoom roomDegree=";
 
+int vccPin = 0;    // for vcc, +5 V
 int oneWirePin = 4;     // 18B20 sensor
 int greenLedPin = 16;        // for blink ;)
 int redLedPin = 5;      // for error blink ;(
@@ -55,11 +56,20 @@ void initializeLedPinsAndStatus() {
     pinMode(greenLedPin, OUTPUT);
     pinMode(redLedPin, OUTPUT);
 
+    pinMode(vccPin, OUTPUT);
+    digitalWrite(vccPin, HIGH);
+
     resetGreenStatus();
     resetRedStatus();
 }
 
 void initializeClientAndSendData(float degree) {
+    if(degree == -127.00) {
+        // OneWire has wrong value. Maybe your sensor lie to you.
+        // Check Vcc and GND pin of sensor
+        return;
+    }
+
     WiFiClientSecure wiFiClient;
     wiFiClient.setFingerprint(fingerPrint);
 

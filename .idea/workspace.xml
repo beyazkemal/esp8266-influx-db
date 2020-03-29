@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="esp8266InfluxDb" targetName="Production" />
       <config projectName="esp8266InfluxDb" targetName="Debug" />
       <config projectName="esp8266InfluxDb" targetName="Z_DUMMY_TARGET" />
-      <config projectName="esp8266InfluxDb" targetName="Production" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -15,7 +15,8 @@
   <component name="ChangeListManager">
     <list default="true" id="60b4613e-6f66-433c-a7ef-04add2492212" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,9 +97,10 @@
       <screen x="0" y="23" width="1680" height="989" />
     </state>
     <state x="499" y="343" key="com.vladsch.clionarduinoplugin.settings.ProjectSettingsDialog/0.23.1680.989@0.23.1680.989" timestamp="1585318040665" />
-    <state x="536" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1585324909920">
-      <screen x="0" y="23" width="1680" height="989" />
+    <state x="2293" y="-21" width="766" height="697" key="search.everywhere.popup" timestamp="1585479921882">
+      <screen x="1680" y="-246" width="1920" height="1019" />
     </state>
+    <state x="2293" y="-21" width="766" height="697" key="search.everywhere.popup/0.23.1680.1027/3600.-282.1920.1057/1680.-246.1920.1019@1680.-246.1920.1019" timestamp="1585479921882" />
     <state x="536" y="241" width="670" height="676" key="search.everywhere.popup/0.23.1680.989@0.23.1680.989" timestamp="1585324909920" />
   </component>
 </project>
